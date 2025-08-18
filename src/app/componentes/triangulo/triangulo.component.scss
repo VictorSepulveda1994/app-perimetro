@@ -1,0 +1,113 @@
+/* Styles for the main container of the triangle component */
+.container {
+  padding: 16px;
+}
+
+/* Styles for information and input cards */
+.info-card, .input-card {
+  background: #ffffff;
+  border-radius: 12px;
+  margin: 0 0 16px 0;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el contenedor principal del componente triángulo */
+.container {
+  padding: 16px;
+}
+
+/* Estilos para las tarjetas de información y entrada */
+.info-card, .input-card {
+  background: #ffffff;
+  border-radius: 12px;
+  margin: 0 0 16px 0;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los encabezados principales */
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+/* Estilos para los subtítulos */
+.subtitle {
+  color: #666;
+  margin-bottom: 16px;
+}
+
+/* Estilos para el contenedor de la fórmula, organizando texto e imagen */
+.formula-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+/* Estilos para los elementos de entrada de Ionic */
+ion-item {
+  --background: #f4f5f8;
+  --border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+/* Estilos para los botones de Ionic */
+ion-button {
+  --background: #1a73e8;
+  --border-radius: 8px;
+  height: 48px;
+}
+
+/* Estilos para mostrar el resultado del cálculo */
+.resultado {
+  text-align: center;
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+/* Styles for subtitles */
+.subtitle {
+  color: #666;
+  margin-bottom: 16px;
+}
+
+/* Styles for the formula container, arranging text and image */
+.formula-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+/* Styles for Ionic input items */
+ion-item {
+  --background: #f4f5f8;
+  --border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+/* Styles for Ionic buttons */
+ion-button {
+  --background: #1a73e8;
+  --border-radius: 8px;
+  height: 48px;
+}
+
+/* Styles for displaying the calculation result */
+.resultado {
+  text-align: center;
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: 500;
+}
