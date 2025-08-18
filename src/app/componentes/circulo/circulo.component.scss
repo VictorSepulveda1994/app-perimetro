@@ -1,0 +1,59 @@
+/* Styles for the main container of the circle component */
+.container {
+  padding: 16px;
+}
+
+/* Styles for information and input cards */
+.info-card, .input-card {
+  background: #ffffff;
+  border-radius: 12px;
+  margin: 0 0 16px 0;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for main headings */
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+/* Styles for subtitles */
+.subtitle {
+  color: #666;
+  margin-bottom: 16px;
+}
+
+/* Styles for the formula container, arranging text and image */
+.formula-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+
+  img {
+    max-width: 120px;
+  }
+}
+
+/* Styles for Ionic input items */
+ion-item {
+  --background: #f4f5f8;
+  --border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+/* Styles for Ionic buttons */
+ion-button {
+  --background: #1a73e8;
+  --border-radius: 8px;
+  height: 48px;
+}
+
+/* Styles for displaying the calculation result */
+.resultado {
+  text-align: center;
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: 500;
+}
