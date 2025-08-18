@@ -1,0 +1,31 @@
+/* Estilos para el contenedor principal de la página de inicio */
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Estilos para texto en negrita dentro del contenedor */
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+/* Estilos para párrafos dentro del contenedor */
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+/* Estilos para enlaces dentro del contenedor */
+#container a {
+  text-decoration: none;
+}
